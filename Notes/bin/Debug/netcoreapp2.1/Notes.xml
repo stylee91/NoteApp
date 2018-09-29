@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Notes</name>
+    </assembly>
+    <members>
+        <member name="M:Notes.Controllers.NoteController.GetAll">
+            <summary>
+            Gets all NoteItems.
+            </summary>
+        </member>
+        <member name="M:Notes.Controllers.NoteController.GetById(System.Int64)">
+            <summary>
+            Gets a specific NoteItem.
+            </summary>
+        </member>
+        <member name="M:Notes.Controllers.NoteController.Create(Notes.Models.NoteItem)">
+             <summary>
+             Creates a NoteItem.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Note
+                 {
+                    "id": 1,
+                    "title": "Shoppinglist",
+                    "description": "Milk, bread"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Notes.Controllers.NoteController.Update(System.Int64,Notes.Models.NoteItem)">
+             <summary>
+             Updates a specific NoteItem.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /Note
+                 {
+                    "id": 1,
+                    "title": "Shoppinglist v2",
+                    "description": "Milk, bread, sugar"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Notes.Controllers.NoteController.Delete(System.Int64)">
+            <summary>
+            Deletes a specific NoteItem.
+            </summary>
+        </member>
+    </members>
+</doc>

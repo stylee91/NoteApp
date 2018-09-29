@@ -14581,11 +14581,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\Notes\\Notes\\Notes.csproj",
+      "projectUniqueName": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\NoteApp\\Notes\\Notes.csproj",
       "projectName": "Notes",
-      "projectPath": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\Notes\\Notes\\Notes.csproj",
+      "projectPath": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\NoteApp\\Notes\\Notes.csproj",
       "packagesPath": "C:\\Users\\mumie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\Notes\\Notes\\obj\\",
+      "outputPath": "C:\\Users\\mumie\\OneDrive\\Skole\\2018Master\\Dips\\NoteApp\\Notes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

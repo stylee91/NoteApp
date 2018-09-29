@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.noteapp-header {
+  background-color: #161629;
+  height: 170px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.noteapp-title {
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid;
+  border-color: #222222;
+  padding: 20px;
+  margin: 20px;
+  min-height: 250px;
+  min-width: 200px;
+}
+
+.note-title {
+  height: 20px;
+  padding: 2px;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+}
+.note-title > div{
+  border-bottom:1px solid #000
+}
+
+.note-description {
+  height: 160px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 1em;
+  border-bottom: #222222 solid 1px;
+  max-width: 200px;
+  justify-content: center;
+
+}
+
+.button-container{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+}
+
+.note-form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.note-form > label > input{
+  justify-content: right;
+}
+
+.content-form{
+  margin-top: 10px;
+ }
+
+ label{
+  margin: 5px;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
